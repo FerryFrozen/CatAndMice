@@ -1,0 +1,117 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://i.gifer.com/fxVE.gif');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 30vw;
+    height: 20vh;
+    background-color: rgba(200,200,200,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.toggle-music {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 30vw;
+    height: 20vh;
+    background-color: rgba(200,200,200,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strings {
+    background-color: rgba(50,50,50,0.5);
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+
+}
+
+.redzone {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greenzone {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redstring {
+    background-color: rgba(150,25,25,0.7);
+    width: 100%;
+    height: 32%;
+}
+
+.greenstring {
+    background-color: rgba(25,150,25,0.7);
+    width: 100%;
+    height: 32%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.catto {
+    left: 0;
+    height: 100%;
+    width: 100px;
+    z-index: 100;
+    background: url(https://i.gifer.com/1fxO.gif) no-repeat;
+    background-size: contain;
+}
+
+.catto.jump {
+    background: url(https://avatanplus.com/files/resources/mid/57484d1186a99154f26d0c90.png) no-repeat;
+    background-size: contain;
+}
+
+.catto.bite {
+    background: url(https://www.publy.ru/wp-content/uploads/2018/07/kot.jpg) no-repeat;
+    background-size: contain;
+}
+
+.mouse {
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTH42Sf9ddwipPNKa0tOSNUVqtSFGnqQB6YFw&usqp=CAU) no-repeat;
+    background-size: contain;
+}
+
